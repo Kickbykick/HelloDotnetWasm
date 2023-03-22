@@ -19,7 +19,8 @@ This uses the `dotnet new wasmbrowser` template.
 To run this solution, run the following commands.
 
 ```bash
-dotnet tool restore && dotnet r start
+dotnet tool restore
+dotnet r start
 ```
 
 Then open your browser to `https://localhost:8080` and be sure to open up the dev tools to see the console output.

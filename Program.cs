@@ -23,6 +23,12 @@ public partial class MyClass
         return text;
     }
 
+    [JSExport]
+    internal static int Add(int a, int b)
+    {
+        return a + b;
+    }
+
     [JSImport("window.location.href", "main.js")]
     internal static partial string GetHRef();
 }
